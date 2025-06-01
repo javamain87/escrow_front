@@ -108,7 +108,7 @@
           <div>
             <label class="block font-medium mb-1">이름</label>
             <input
-              v-model="form.name"
+              v-model="form.requesterName"
               type="text"
               class="w-full border p-2 rounded"
               required
