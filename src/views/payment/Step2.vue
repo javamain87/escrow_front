@@ -228,7 +228,7 @@ const submitForm = async () => {
       payload = {
         tradeCode: form.value.tradeCode,
         approvalPassword: form.value.approvalPassword,
-        name: form.value.name,
+        name: form.value.requesterName,
         phone: form.value.phone,
         requesterEmail: form.value.requesterEmail,
         company: form.value.company,
