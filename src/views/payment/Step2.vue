@@ -199,7 +199,7 @@ const form = ref({
   recaptchaToken: "",
 });
 
-const siteKey = "6Lf8SFArAAAAABrbWbSWhIdi39T96jcq_tgiweED";
+const siteKey = "6Lfp31ErAAAAAP9NwWPfwYvaQ888V7paJvOEzd6D";
 const recaptchaRef = ref(null);
 
 const submitForm = async () => {
