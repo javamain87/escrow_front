@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: mport.meta.env.VITE_API_BASE_URL, // ✅ 백엔드 API URL ==> .env 로 세팅 하여 local , dev , prod 일떄 변경되도록 세팅 필요
+  baseURL: import.meta.env.VITE_API_BASE_URL, // ✅ 백엔드 API URL ==> .env 로 세팅 하여 local , dev , prod 일떄 변경되도록 세팅 필요
   withCredentials: true, // ✅ 쿠키 기반 인증 또는 세션 연동 시 필요
   headers: {
     "Content-Type": "application/json",
